@@ -8,9 +8,13 @@ def isprime(n):
         if n % x == 0:
             print("{} equals {} x {}".format(n, x, n // x))
             return False
-    else:
-        print(n, "is a prime number")
-        return True
+
+    # This else statement does not look necessary. What happens if I remove it?
+    #else:
+    # Just as I thought... it works fine without it.
+
+    print(n, "is a prime number")
+    return True
 
 for n in range(1, 20):
     isprime(n)

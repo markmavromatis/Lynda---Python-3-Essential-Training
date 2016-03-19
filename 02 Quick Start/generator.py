@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 
+# Generator Function
+# Yield command returns a value then continues where it left off the next time it's called.
+
 def isprime(n):
     if n == 1:
         return False
