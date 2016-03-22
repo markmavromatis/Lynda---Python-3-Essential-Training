@@ -6,4 +6,19 @@
 def main():
     print('this is the switch.py file')
 
+    choices = dict(
+        one = 'first',
+        two = 'second',
+        three = 'third',
+        four = 'fourth',
+        five = 'fifth'
+    )
+
+    v = 'one'
+    print(choices[v])
+    a_key = choices.get('ten', 'other')
+    print(a_key)
+
+
+
 if __name__ == "__main__": main()
