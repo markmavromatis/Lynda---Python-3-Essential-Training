@@ -87,6 +87,8 @@ def main():
     db.update(dict(t1 = 'three', i1 = 103))
     for row in db: print(row)
 
+
+
     print('Delete rows')
     db.delete('one')
     db.delete('three')
